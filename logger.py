@@ -12,7 +12,7 @@ os.makedirs(log_dir, exist_ok=True)
 log_filename = f'{log_dir}/model_logs_{timestamp}.log'
 
 # Set up logger
-logger = logging.getLogger('custom_logger')
+logger = logging.getLogger('model_logs')
 logger.setLevel(logging.DEBUG)
 
 # Create file handler which logs messages
